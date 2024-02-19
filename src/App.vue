@@ -18,6 +18,12 @@ onMounted(() => {
 </script>
 
 <template>
+  <!-- <div class="">
+    <div class="px-14 flex justify-between py-7">
+      <h1 class="text-white text-2xl font-bold">UserHub</h1>
+      <button class="text-white">Sign up</button>
+    </div>
+  </div> -->
   <div class="container" style="padding: 50px 0 100px 0">
     <Account v-if="session" :session="session" />
     <Auth v-else />
